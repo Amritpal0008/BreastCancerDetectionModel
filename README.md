@@ -26,7 +26,7 @@ Matplotlib / Seaborn (for visualization)
 🧠 Model
 Algorithm: Support Vector Machine (SVM)
 
-Kernel: (e.g., RBF/Linear – specify what you used)
+Kernel: (e.g., RBF/Linear/POLY-as linear gives best accuracy out of these therefore linear kernel used)
 
 Preprocessing: Feature scaling using StandardScaler
 
@@ -34,34 +34,6 @@ Evaluation Metrics: Accuracy, Confusion Matrix, Precision, Recall, F1 Score
 
 
 
-📁 Project Structure
-bash
-Copy
-Edit
-├── breast_cancer_svm.ipynb     # Jupyter Notebook with code and results
-├── requirements.txt            # List of Python dependencies
-├── README.md                   # Project overview
-└── dataset/                    # (Optional) Folder for dataset if not using built-in loader
-🚀 How to Run
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/AMRITPAL0008/BreastCancerDetectionModel.git
-cd BreastCancerDetectionModel
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the notebook:
-
-bash
-Copy
-Edit
-jupyter notebook BreastCancerDetectionModel.ipynb
 ✅ Future Work
 Try other algorithms like Random Forest or Logistic Regression
 
