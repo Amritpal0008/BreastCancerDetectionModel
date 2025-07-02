@@ -71,4 +71,5 @@ Deploy using Flask/Streamlit
 
 🧑‍💻 Author
 Amrit Pal
-B.Tech CE student at NIT Jalandhar
+B.Tech CE student 
+at NIT Jalandhar
